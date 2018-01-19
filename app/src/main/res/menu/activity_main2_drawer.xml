@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mecheti_and_nk"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="Мечит жана намаз каналар" />
+
+        <item
+            android:id="@+id/dua"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="Дуа" />
+        <item
+            android:id="@+id/kuran"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="Куран" />
+        <item
+            android:id="@+id/namaz"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="Намаз үйрөнүү" />
+        <item
+            android:id="@+id/time_namaz"
+            android:icon="@drawable/ic_arrow_drop_down_black_24dp"
+            android:title="Намаз убактысы" />
+
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/ic_new_releases_black_24dp"
+                android:title="Жаңылыктар" />
+            <item
+                android:id="@+id/my_media"
+                android:icon="@drawable/ic_perm_media_black_24dp"
+                android:title="Медиа" />
+            <item
+                android:id="@+id/reklama"
+                android:icon="@drawable/ic_add_alert_black_24dp"
+                android:title="Жарнама жиберүү" />
+            <item
+                android:id="@+id/market"
+                android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+                android:title="Маркет" />
+        </menu>
+    </item>
+
+</menu>

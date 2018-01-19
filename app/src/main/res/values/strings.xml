@@ -1,0 +1,604 @@
+<resources>
+    <string name="app_name">Muslimbiz</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_tab1">Это первая вкладка</string>
+    <string name="text_tab2">Это вторая вкладка</string>
+    <string name="text_tab3">Это третья вкладка</string>
+    <string name="text_tab_header">Свой заголовок</string>
+
+    <string name="action_settings">жөндөөлөр</string>
+
+
+
+    <string-array name="sex">
+        <item>Эркек</item>
+        <item>Аял</item>
+    </string-array>
+    <string-array name="market">
+        <item>Кыймылсыз мүлк</item>
+        <item>Билим алуу</item>
+        <item>Унаа</item>
+        <item>Кафе,Ресторан жана той каналар</item>
+        <item>Дукөндор</item>
+        <item>Үй эмерек ж.б.</item>
+        <item>Кызматтар</item>
+    </string-array>
+    <string-array name="unmarket">
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+        <item>MARKET</item>
+    </string-array>
+    <string-array name="dua_title">
+        <item>Жаны кийим кийгенде окулчу дуалар</item>
+        <item>Жаны кийим кийген кишиге айтылчу дуалар</item>
+        <item>Кийим чечкендеги дуа</item>
+        <item>Ажаатканага киргендеги дуа</item>
+        <item>Ажааткандан чыккандагы дуа</item>
+        <item>Даарат алуунун алдындагы дуа</item>
+        <item>Даарат алып буткондон кийин дуа</item>
+        <item>Үйдөн  сапарга чыгып бара жаткандагы дуа</item>
+        <item>Үйгө киргендеги дуа</item>
+        <item>Уйкудан алдын айтылчу дуалар</item>
+        <item>Жаман түш көргөндө эмне кылуу керек</item>
+        <item>Кыйналып машакат чеккенде окулчу дуалар</item>
+        <item>Карыздан кутулуу үчүн айтылчу дуа</item>
+        <item>Күнөө иш кылып койгон адамдын дуасы</item>
+        <item>Ачуусу келгенде айтылчу дуа</item>
+        <item>Улоого же автомашинага отурганда айтылчу дуа</item>
+    </string-array>
+
+    <string-array name="dua_text">
+        <item>«Аллаhумма ля-Ка-ль-хьамду! Анта кясаута-ни-hи ас-алю-Ка мин хайри-hи ва хайри ма суни’а ляhу ва а’узу би-Ка мин шарри-hи ва шарри ма суни’а ляhу.»
+                "Оо  Аллах! Сага мактоо болсун! Анткени муну мага Сен кийгизди?. Мен Сенден ушул кийимдин жакшылыгы менен  ага арналган нерсенин жакшылыгын тилеймин . Жана анын жамандыгы менен, ага арналган нерсенин жамандыгынан  озуно сыйынамын</item>
+        <item>«Тубли ва йухлифу Ллаhу та’аля.»
+                "Кийгенин эскирип калсын, Аллах башкасын берсин
+                "«Ильбас джадидан ва ‘иш хьамидан ва мут шаhида.»
+                "Жаны кийим кий, улгулуу  жаша жана шейит бол</item>
+        <item>«Би-сми Лляh»
+                "Аллахтын ысмы менен</item>
+        <item>«Бисми Лляhи, Аллаhумма, инни а’узу би-Кя мин аль-хубуси валь-хабаис»
+                "Оо Аллах! Жин - шайтандын эркегинен жана ургачысынан Озун сакта!</item>
+        <item>«Гъуфраанака»
+                "Оо Аллах кечиришинди сурайм</item>
+        <item>«Би-сми Лляh»
+                "Алланын ысмы менен </item>
+        <item>«Ашhаду алля иляhа илля Ллаhу вахьдаhу ля шарикя ляhу ва ашhаду анна Мухьаммадан ‘абдуhу ва расулюh»
+                "Мен: « Жалгыз Аллахтан башка илях жок , Аллахтын шериги да жок жана Мухаммад( алейхи салям) Аллахтын кулу жана элчиси « деп куболук берем"
+        </item>
+        <item>«Би-сми Лляhи, таваккальту ‘аля Ллаhи, ва ля хьауля ва ля къуввата илля би-Лляh»
+                "Аллахтын ысымы менен Аллахка тобокел кылдым (озумду тапшырдым) . Аллахтын кучунон откон куч жок, Аллахтын кубатынан откон кубат жок"
+        </item>
+        <item>«Би-сми Лляhи валяджна, ва би-сми Лляhи хараджна ва ‘аля Рабби-на таваккальна»
+                "Аллахтын ысымы менен кирдик
+                "Аллахтын ысымы менен чыктык жана жалгыз Роббибизге тобокел кылдык (ушул дуаны окуп уй ичиндегилерге салам берет)"
+        </item>
+        <item>- «Би-сми-кя-Ллаhумма, амуту ва ахьйа.»
+" +
+                "Оо Аллах Сенин ысымын менен  олуп (уктап) Сенин ысымын менен тирилемин
+                "-Аллаhумма, къы-ни ‘азаба-кя яума таб’асу ‘ибада-к!»
+                "Оо Аллах ! Пенделеринди кайра тирилткен  (кыямат )кундогу азабындан мени сактай кор
+        </item>
+        <item>1.	Сол жагына 3 жолу тукурот"
+                "2.3 жолу « Аузу билляхи минаш-шайтоонир ражим» деп , коргон нерселердин жамандыгынан коргоо сурайт
+                "3.Коргон жаман тушун эч кимге айтпайт
+                "4.Башка жамбашына оодарылып жатат
+                "5.Эгер кааласа туруп намаз окусун (сахих Муслим 4/1172)
+        </item>
+        <item>Эч бир Кудай жок, жалгыз озун барсын ! Мен Сени аруулайм ! (о Раббим)
+                "Мен (куноо кылып ) зулум кылуучулардан болуп калдым
+        </item>
+        <item>Оо Аллах! Мага адалды жетиштуу кылып, арамдан сакта жана озундун фазли? (артыкчылыгы? ) менен  мени башкаларга муктаж кылба</item>
+        <item>Пайгамбар алейхи салям айтты « Ким  бир куноо иш кылып , бушайман болсо , жакшылап даарат алып , эки рекет намаз окусун дагы « Астагфируллах» деп Аллахтан кечирим сурасын</item>
+        <item>«А’узу би-Лляhи мин аш-шайтани-р-ражиим!»
+                "Аллахтын каарына кабылып, ташбаран кылынып айдалган  шайтандан Аллах сактасын</item>
+        <item>«Би-сми-Лляhи валь-хьамду ли-Лляhи»
+                "«Аллахтын ысмы менен Аллахка мактоолор болсун»  деп томондoгу дуаны окуйт
+                "Бизге ушул улоону моюн сундуруп койгон  Аллах Таала аруу, пакиза!  (Эгер Ал моюн сундурбаганада) биз буга жакындаша албайт элек."
+                "Баардыгыбыз раббибизге кайтуучубуз</item>
+    </string-array>
+
+
+    <string-array name="kuran_name_kg_arab">
+        <item>Аль-Фатиха</item>
+        <item>Аль-Бакара</item>
+        <item>Аль Имран</item>
+        <item>Ан-Ниса</item>
+        <item>Аль-Маида</item>
+        <item>Аль-Анам</item>
+        <item>Аль-Араф</item>
+        <item>Аль-Анфаль</item>
+        <item>Ат-Тауба</item>
+        <item>Йунус</item>
+        <item>Худ</item>
+        <item>Йусуф</item>
+        <item>Ар-Раад</item>
+        <item>Ибрахим</item>
+        <item>Аль-Хиджр</item>
+        <item>Ан-Нахль</item>
+        <item>Аль-Исра</item>
+        <item>Аль-Кахф</item>
+        <item>Марьям</item>
+        <item>Та Ха</item>
+        <item>Аль-Анбийа</item>
+        <item>Аль-Хадж</item>
+        <item>Аль-Муминун</item>
+        <item>Ан-Нур</item>
+        <item>Аль-Фуркан</item>
+        <item>Аш-Шуара</item>
+        <item>Ан-Намль</item>
+        <item>Аль-Касас</item>
+        <item>Аль-Анкабут</item>
+        <item>Ар-Рум</item>
+        <item>Лукман</item>
+        <item>Ас-Саджда</item>
+        <item>Аль-Ахзаб</item>
+        <item>Саба</item>
+        <item>Фатыр</item>
+        <item>Яа Син</item>
+        <item>Ас-Саффат</item>
+        <item>Сад</item>
+        <item>Аз-Зумар</item>
+        <item>Гафир</item>
+        <item>Фуссилат</item>
+        <item>Аш-Шура</item>
+        <item>Аз-Зухруф</item>
+        <item>Ад-Духан</item>
+        <item>Аль-Джасийа</item>
+        <item>Аль-Ахкаф</item>
+        <item>Мухаммад</item>
+        <item>Аль-Фатх</item>
+        <item>Аль-Худжурат</item>
+        <item>Каф</item>
+        <item>Аз-Зарийат</item>
+        <item>Ат-Тур</item>
+        <item>Ан-Наджм</item>
+        <item>Аль-Камар</item>
+        <item>Ар-Рахман</item>
+        <item>Аль-Вакиа</item>
+        <item>Аль-Хадид</item>
+        <item>Аль-Муджадила</item>
+        <item>Аль-Хашр</item>
+        <item>Аль-Мумтахана</item>
+        <item>Ас-Сафф</item>
+        <item>Аль-Джумуа</item>
+        <item>Аль-Мунафикун</item>
+        <item>Ат-Тагабун</item>
+        <item>Ат-Талак</item>
+        <item>Ат-Тахрим</item>
+        <item>Аль-Мульк</item>
+        <item>Аль-Калам</item>
+        <item>Аль-Хакка</item>
+        <item>Аль-Мааридж</item>
+        <item>Нух</item>
+        <item>Аль-Джинн</item>
+        <item>Аль-Муззаммиль</item>
+        <item>Аль-Муддассир</item>
+        <item>Аль-Кийама</item>
+        <item>Аль-Инсан</item>
+        <item>Аль-Мурсалят</item>
+        <item>Ан-Наба</item>
+        <item>Ан-Назиат</item>
+        <item>Абаса</item>
+        <item>Ат-Таквир</item>
+        <item>Аль-Инфитар</item>
+        <item>Аль-Мутаффифин</item>
+        <item>Аль-Иншикак</item>
+        <item>Аль-Бурудж</item>
+        <item>Ат-Тарик</item>
+        <item>Аль-Аля</item>
+        <item>Аль-Гашийа</item>
+        <item>Аль-Фаджр</item>
+        <item>Аль-Балад</item>
+        <item>Аш-Шамс</item>
+        <item>Аль-Лайл</item>
+        <item>Ад-Духа</item>
+        <item>Аш-Шарх</item>
+        <item>Ат-Тин</item>
+        <item>Аль-Алак</item>
+        <item>Аль-Кадр</item>
+        <item>Аль-Баййина</item>
+        <item>Аз-Залзала</item>
+        <item>Аль-Адийат</item>
+        <item>Аль-Кариа</item>
+        <item>Ат-Такасур</item>
+        <item>Аль-Аср</item>
+        <item>Аль-Хумаза</item>
+        <item>Аль-Филь</item>
+        <item>Курейш</item>
+        <item>Аль-Маун</item>
+        <item>Аль-Каусар</item>
+        <item>Аль-Кафирун</item>
+        <item>Ан-Наср</item>
+        <item>Аль-Масад</item>
+        <item>Аль-Ихлас</item>
+        <item>Аль-Фалак</item>
+        <item>Ан-Нас</item>
+    </string-array>
+    <string-array name="kuran_name_kg">
+        <item>Ачуучу сүрөө</item>
+        <item>Уй сүрөөсү</item>
+        <item>Имрандын үй-бүлөөсү</item>
+        <item>Аялдар </item>
+        <item>Дасторкон</item>
+        <item>Мал-жандыктар</item>
+        <item>Дубалдар</item>
+        <item>Олжолор</item>
+        <item>Тообо</item>
+        <item>Жунус</item>
+        <item>Худ</item>
+        <item>Жусуп</item>
+        <item>Күркүрөө</item>
+        <item>Ибрахим</item>
+        <item>Хыжр өрөөнү</item>
+        <item>Аарылар</item>
+        <item>Түнкү сайакат</item>
+        <item>Үңкүр</item>
+        <item>Марийа </item>
+        <item>Тоо хаа</item>
+        <item>Пайгамбарлар</item>
+        <item>Ажылык</item>
+        <item>Ыймандуулар</item>
+        <item>Шоола</item>
+        <item>Ажырым</item>
+        <item>Акындар</item>
+        <item>Кумурскалар</item>
+        <item>Өмүр байандар</item>
+        <item>Жөргөмүш</item>
+        <item>Римдиктер</item>
+        <item>Лукман</item>
+        <item>Сажда</item>
+        <item>Тайпалар</item>
+        <item>Саба</item>
+        <item>Жаратуучу</item>
+        <item>Йа Син</item>
+        <item>Сапка тизилгендер</item>
+        <item>Сод</item>
+        <item>Тыгындар</item>
+        <item>Кечирүүчү</item>
+        <item>Ажыратылган</item>
+        <item>Кеңеш</item>
+        <item>Кооздук</item>
+        <item>Түтүн</item>
+        <item>Чөк түшүүчү</item>
+        <item>Ахкааф өрөөнү</item>
+        <item>Мухаммад</item>
+        <item>Жеңиш</item>
+        <item>Бөлмөлөр</item>
+        <item> Кооф</item>
+        <item>Таралуучулар</item>
+        <item>Тур тоосу</item>
+        <item>Жылдыз</item>
+        <item>Ай</item>
+        <item>Мээримдүү</item>
+        <item>Түшүүчү</item>
+        <item>Темир</item>
+        <item>Талашуучу айал</item>
+        <item>Жыйналуу</item>
+        <item>Сыналган айал</item>
+        <item>Катар</item>
+        <item>Жума намаз</item>
+        <item>Эки жүздүүлөр</item>
+        <item>Орун алмашуу</item>
+        <item>Ажырашуу</item>
+        <item>Арам кылуу</item>
+        <item>Бийлик</item>
+        <item>Калем</item>
+        <item>Акыйкаттоочу</item>
+        <item>Тепкичтер</item>
+        <item>Нух</item>
+        <item>Жиндер</item>
+        <item>Чулгануучу</item>
+        <item>Ороолуучу</item>
+        <item>Тик туруу</item>
+        <item>Инсан</item>
+        <item>Жөнөтүлгөндөр</item>
+        <item>Кабар</item>
+        <item>Сууруп салуучулар</item>
+        <item>Кабак бүрктү</item>
+        <item>Бүктөө</item>
+        <item>Талкалоо</item>
+        <item>Тараза уруучулар</item>
+        <item>Жарылуу</item>
+        <item>Төлгө жылдыздары</item>
+        <item>Түнкү жолоочу</item>
+        <item>Улук</item>
+        <item>Жабуучу</item>
+        <item>Таң</item>
+        <item>Шаар</item>
+        <item>Күн</item>
+        <item>Түн</item>
+        <item>Чашке</item>
+        <item>Жаруу</item>
+        <item>Анжир</item>
+        <item>Уйуган кан</item>
+        <item>Кадыр</item>
+        <item>Ачык далил</item>
+        <item>Жер титирөө</item>
+        <item>Ат чабуучулар</item>
+        <item>Кагуучу</item>
+        <item>Көбөйтүү</item>
+        <item>Убакыт</item>
+        <item>Чагымчы</item>
+        <item>Пил</item>
+        <item>Курайш</item>
+        <item>Үй буйумдары</item>
+        <item>Каусар көлү</item>
+        <item>Капырлар</item>
+        <item>Жардам</item>
+        <item>Эшилген жип</item>
+        <item>Ыклас</item>
+        <item>Таң сүрүү</item>
+        <item>Кишилер</item>
+    </string-array>
+    <string-array name="kuran_name_arab">
+        <item>الفاتحة</item>
+        <item>البقرة</item>
+        <item>آل عمران</item>
+        <item>النساء</item>
+        <item>المائدة</item>
+        <item>الأنعام</item>
+        <item>الأعراف</item>
+        <item>الأنفال</item>
+        <item>التوبة</item>
+        <item>يونس</item>
+        <item>هود</item>
+        <item>يوسف</item>
+        <item>الرعد</item>
+        <item>إبراهيم</item>
+        <item>الحجر</item>
+        <item>النحل</item>
+        <item>الإسراء</item>
+        <item>الكهف</item>
+        <item>مريم</item>
+        <item>طه</item>
+        <item>الأنبياء</item>
+        <item>الحج</item>
+        <item>المؤمنون</item>
+        <item>النور</item>
+        <item>الفرقان</item>
+        <item>الشعراء</item>
+        <item>النمل</item>
+        <item>القصص</item>
+        <item>العنكبوت</item>
+        <item>الروم</item>
+        <item>لقمان</item>
+        <item>السجدة</item>
+        <item>الأحزاب</item>
+        <item>سبأ</item>
+        <item>فاطر</item>
+        <item>يس</item>
+        <item>الصافات</item>
+        <item>ص</item>
+        <item>الزمر</item>
+        <item>غافر</item>
+        <item>فصلت</item>
+        <item>الشورى</item>
+        <item>الزخرف</item>
+        <item>الدخان</item>
+        <item>الجاثية</item>
+        <item>الأحقاف</item>
+        <item>محمد</item>
+        <item>الفتح</item>
+        <item>الحجرات</item>
+        <item>ق</item>
+        <item>الذاريات</item>
+        <item>الطور</item>
+        <item>النجم</item>
+        <item>القمر</item>
+        <item>الرحمن</item>
+        <item>الواقعة</item>
+        <item>الحديد</item>
+        <item>المجادلة</item>
+        <item>الحشر</item>
+        <item>الممتحنة</item>
+        <item>الصف</item>
+        <item>الجمعة</item>
+        <item>المنافقون</item>
+        <item>التغابن</item>
+        <item>الطلاق</item>
+        <item>التحريم</item>
+        <item>الملك</item>
+        <item>القلم</item>
+        <item>الحاقة</item>
+        <item>المعارج</item>
+        <item>نوح</item>
+        <item>الجن</item>
+        <item>المزمل</item>
+        <item>المدثر</item>
+        <item>القيامة</item>
+        <item>الإنسان</item>
+        <item>المرسلات</item>
+        <item>النبأ</item>
+        <item>النازعات</item>
+        <item>عبس</item>
+        <item>التكوير</item>
+        <item>الانفطار</item>
+        <item>المطففون</item>
+        <item>الانشقاق</item>
+        <item>البروج</item>
+        <item>الطارق</item>
+        <item>الأعلى</item>
+        <item>الغاشية</item>
+        <item>الفجر</item>
+        <item>البلد</item>
+        <item>الشمس</item>
+        <item>الليل</item>
+        <item>الضحى</item>
+        <item>الشرح</item>
+        <item>التين</item>
+        <item>العلق</item>
+        <item>القدر</item>
+        <item>البينة</item>
+        <item>الزلزلة</item>
+        <item>العاديات</item>
+        <item>القارعة</item>
+        <item>التكاثر</item>
+        <item>العصر</item>
+        <item>الهمزة</item>
+        <item>الفيل</item>
+        <item>قريش</item>
+        <item>الماعون</item>
+        <item>الكوثر</item>
+        <item>الكافرون</item>
+        <item>النصر</item>
+        <item>المسد</item>
+        <item>الإخلاص</item>
+        <item>الفلق</item>
+        <item>الناس</item>
+    </string-array>
+
+
+    <string-array name="state">
+        <item>Чүй</item>
+        <item>Талас</item>
+        <item>Ош</item>
+        <item>Жалал-Абад</item>
+        <item>Баткен</item>
+        <item>Ыссык-Көл</item>
+        <item>Нарын</item>
+    </string-array>
+
+    <string-array name="chui">
+        <item>Бишкек</item>
+        <item>Аэропорт Манас</item>
+        <item>Беловодское</item>
+        <item>Беш-Терек</item>
+        <item>Кайыңды</item>
+        <item>Камышановка</item>
+        <item>Кемин</item>
+        <item>Кызыл-Ой</item>
+        <item>Өтмөк</item>
+        <item>Суусамыр</item>
+        <item>Тегирменти</item>
+        <item>Токмок</item>
+        <item>Төө-Ашуу</item>
+        <item>Чалдовар</item>
+        <item>Ысык-Ата</item>
+    </string-array>
+    <string-array name="talas">
+        <item>Талас</item>
+        <item>Бакай-Ата</item>
+        <item>Грозный</item>
+        <item>Кара-Ой</item>
+        <item>Кызыл-Адыр</item>
+        <item>Покровка</item>
+        <item>Талды-Булак</item>
+        <item>Шекер</item>
+    </string-array>
+    <string-array name="osh">
+        <item>Ош</item>
+        <item>Араван</item>
+        <item>Гулчө</item>
+        <item>Дароот-Коргон</item>
+        <item>Кара-Кулжа</item>
+        <item>Кара-Суу</item>
+        <item>Ноокат</item>
+        <item>Ой-Тал</item>
+        <item>Өзгөн</item>
+        <item>Папан</item>
+        <item>Саламалик</item>
+        <item>Сары-Могол</item>
+        <item>Сопу-Коргон</item>
+        <item>Эркештам</item>
+    </string-array>
+    <string-array name="jalal_abad">
+        <item>Жала-Абад</item>
+        <item>Ак-Таш</item>
+        <item>Ала-Бука</item>
+        <item>Аркыт</item>
+        <item>Арсланбап</item>
+        <item>Казарман</item>
+        <item>Көк-Таш</item>
+        <item>Кызыл-Өзгөрүш</item>
+        <item>Кызыл-Туу</item>
+        <item>Маасы</item>
+        <item>Майлы-Суу</item>
+        <item>Таш-Көмүр</item>
+        <item>Токтогул</item>
+        <item>Чычкан-Суу</item>
+        <item>Каныш-Кыя</item>
+        <item>Кара-Көл</item>
+        <item>Кара-Алма</item>
+        <item>Кербен</item>
+        <item>Көк-Булак</item>
+    </string-array>
+    <string-array name="batken">
+        <item>Баткен</item>
+        <item>Ормош</item>
+        <item>Майдан</item>
+        <item>Исфана</item>
+        <item>Кулунду</item>
+        <item>Маргун</item>
+        <item>Катрак</item>
+        <item>Көк-Таш</item>
+        <item>Сүлүктү</item>
+        <item>Кызыл-Кыя</item>
+        <item>Согмент</item>
+        <item>Рават</item>
+        <item>Ак-Сай</item>
+        <item>Самарканд</item>
+        <item>Роут</item>
+        <item>Кадамжай</item>
+        <item>Холмион</item>
+        <item>Бүргөндү</item>
+    </string-array>
+    <string-array name="yssyk_kol">
+        <item>Ак-Булуң</item>
+        <item>Ак-Шыйрак</item>
+        <item>Ала-Баш</item>
+        <item>Ананьево</item>
+        <item>Барскоон</item>
+        <item>Бөкөнбаев</item>
+        <item>Кара-Кол</item>
+        <item>Кара-Коо</item>
+        <item>Кызыл-Суу</item>
+        <item>Тамчы</item>
+        <item>Түп</item>
+        <item>Чолпон-Ата</item>
+        <item>Эңильчек</item>
+    </string-array>
+    <string-array name="naryn">
+        <item>Нарын</item>
+        <item>Баетов</item>
+        <item>Сегизинчи-Март</item>
+        <item>Кочкор</item>
+        <item>Кош-Дөбө</item>
+        <item>Кызарт</item>
+        <item>Миң-Куш</item>
+        <item>Өзгөруш</item>
+        <item>Таш-Башат</item>
+        <item>Торугарт</item>
+        <item>Чаек</item>
+        <item>Ат-Башы</item>
+        <item>Казыбек</item>
+    </string-array>
+
+</resources>

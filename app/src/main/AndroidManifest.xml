@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zverek.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="Муслимбиз"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".services.NamazTimeNotificationService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".services.OnBootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" /> <!-- For some devices -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="Бишкек"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3SignInActivity"
+            android:label="Кируу"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main4RegistrationActivity"
+            android:label="Катоодон отуу"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProphileActivity"
+            android:label="Оздук маалымат"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main7UnUnKuranActivity"
+            android:label="Куран"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MechetiNamazKanaActivity"
+            android:label="Мечит жана намаз каналардын дареги"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MediaActivity"
+            android:label="Медиа"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazOkuuActivity"
+            android:label="Намаз"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KuranListActivity"
+            android:label="Куран"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DuaActivity"
+            android:label="Дуа"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReclamaActivity"
+            android:label="Дуа"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsActivity"
+            android:label="Жанылыктар"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UnDuaActivty"
+            android:label="Дуа"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MarketActivity"
+            android:label="Маркет"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazBagymdatActivity"
+            android:label="Багымдат"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazBeshimActivity"
+            android:label="Бешим"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazDigerActivity"
+            android:label="Дигер"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazKuptanActivity"
+            android:label="Куптан"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazShamActivity"
+            android:label="Шам"
+            android:screenOrientation="portrait" />
+            <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAP1oh5_KwD33QXVUZOxqBsc2QOUG9wcgM" />
+
+        <activity android:name=".UnMarketActivity"></activity>
+    </application>
+
+</manifest>
